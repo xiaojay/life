@@ -8,7 +8,6 @@ settings.DEBUG = False
 from taxonomy.models import *
 
 data_dir = sys.argv[1]
-
 gencode_file_name = 'gencode.dmp'
 gencode_file = os.path.join(data_dir, gencode_file_name)
 i = 0
@@ -81,3 +80,21 @@ for line in file(node_file):
         parent = Node.objects.get(tax_id=data[1])
         node.parent = parent
         node.save()
+print 'Node:finished parent node import.'
+
+delnodes_file_name = 'delnodes.dmp'
+delnodes_file = os.path.join(data_dir, delnodes_file_name)
+i = 0
+for line in file(delnodes_file):
+    i = i + 1
+    data = line.split('|')
+    data = [d.strip() for d in data]
+    if data[0]:
+        try:
+            node = Node.objects.get(tax_id=data[0])
+        except Node.DoesNotExist:
+            print 'Node %s dosenot exist.'%data[0]
+            continue
+        node.deleted_flag = True
+        node.save()
+print 'Node:mark %i node deleted.'%i
