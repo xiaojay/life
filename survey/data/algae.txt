@@ -1,0 +1,43 @@
+门  属  属  生物量(mg/万个)
+蓝藻	色球藻	Chroococcus	0.0075
+蓝藻	微囊藻	Microcystis	0.0005
+蓝藻	平裂藻	Merismopedia    0.0005
+蓝藻	伪鱼腥藻	Pseudanabaena
+蓝藻	鱼腥藻	Anabaena	0.0015
+蓝藻	螺旋藻	Spirulina
+蓝藻	颤藻	Oscillatoriaceae	0.01
+隐藻	隐藻	Cryptomonas	0.04
+甲藻	角甲藻	Ceratium
+甲藻	裸甲藻	Gymnodinium
+甲藻	多甲藻	Peridinium	0.05
+裸藻	裸藻	Euglena
+裸藻	扁裸藻	Phacus
+硅藻	小环藻	Cyclotella	0.005
+硅藻	直链藻	Melosira	0.03
+硅藻	针杆藻	Synedra	0.06
+硅藻	舟形藻	Navicula	0.02
+硅藻	脆杆藻	Fragilaria	0.05
+硅藻	异极藻	Gomphonema	0.05
+硅藻	桥弯藻	Cymbella
+硅藻	卵形藻	Cocconeis
+硅藻	曲壳藻	Achnanthes	0.01
+硅藻	圆筛藻	Coscinodiscus	0.02
+硅藻	羽纹藻	Pinnularia	0.02
+硅藻	菱形藻	Nitzschia
+硅藻	星杆藻	Asterionella	0.005
+绿藻	衣藻	Chamydomonas	0.008
+绿藻	小球藻	Chlorella	0.008
+绿藻	纤维藻	Ankistrodesmus	0.001
+绿藻	栅藻	Scenedesmus	0.001
+绿藻	月牙藻  Selenastrum 0.005
+绿藻	鼓藻	Cosmarium	0.002
+绿藻	角星鼓藻	Staurastrum
+绿藻	四角藻	Tetraedron	0.004
+绿藻	盘星藻	Pediastrum	0.01
+绿藻	蹄形藻	Kirehneriella
+绿藻	顶棘藻	Chodatella
+绿藻	弓形藻	Schroederia	0.01
+绿藻	集星藻	Actinastrum
+绿藻	多芒藻	Golenkinia
+绿藻	十字藻	Apiculata	0.005
+黄藻	黄丝藻	Tribonema

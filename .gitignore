@@ -8,5 +8,5 @@ pid
 .idea/
 log/
 temp/
-data/
 db/
+taxonomy/data/
